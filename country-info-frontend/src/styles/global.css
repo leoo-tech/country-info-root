@@ -1,0 +1,72 @@
+/* bootstrap */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/*  */
+body {
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid #ddd; 
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.card a {
+  text-decoration: none;
+  color: #333; 
+}
+
+.card a:hover {
+  color: #007bff; 
+}
+
+.country-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.country-info img {
+  max-width: 300px; /* resize  image to fit */
+
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.country-info h1 {
+  margin-bottom: 10px;
+}
+
+.country-info p {
+  margin-bottom: 5px;
+}
+
+.country-info .list-group-item {
+  text-align: center; /*  */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px; 
+}
+
+.country-info .list-group-item ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.country-info .link-no-decoration {
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.country-info-chart {
+  margin: 20px 50px; /* chart  centered */
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center; /*  */
+}
